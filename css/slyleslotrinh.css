@@ -1,0 +1,137 @@
+/* content lộ trình */
+.drop_menu .menu_text li a#lotrinh{
+    background-color: rgb(233, 231, 231);
+}
+.content_title{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.content_title .title2 p{
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.content_title .title2{
+    width: 50vw;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.learn{
+    margin-left: 37px;
+}
+.learn_sub{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #cacaca;
+    border-width: 1px;
+    width: 27vw;
+    float: left;
+    margin: 16px 16px;
+}
+
+.learn_sub .part1{
+    display: flex;
+    justify-content: space-between;
+}
+.part1 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #f05123;
+    border-width: 5px;
+    /* height: 122px;*/
+     
+    overflow: hidden;
+    margin: 8px 8px;
+}
+.part1 .word{
+    margin: 8px 8px;
+    margin-left: 16px;
+}
+.part1 .word p{
+    opacity: 0.8;
+}
+.part1 .img img{
+    height: 7vw;
+    width: 23vw;
+}
+.learn_sub .part2{
+    display: flex;
+    margin-left: 16px;
+}
+.learn_sub .part2 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cacaca;
+    font-size: 20px;
+    margin-right: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+}
+.learn_sub .part3{
+    display: flex;
+    margin-left: 16px;
+    background-color: #f05123;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 200px;
+    margin: 16px 0px;
+    margin-left: 16px;
+    border-radius: 40px;
+}
+.learn_sub .part3 a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+/* content phần cuối */
+.content_bottom{
+    margin: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_bottom .content_right img{
+    height: 420px;
+}
+.content_bottom .content_left{
+    width: 500px;
+    margin-left: 40px;
+}
+.content_bottom .content_left #dau{
+    margin-bottom: 40px;
+}
+.content_left #dau p{
+    margin-top: 20px;
+    color: #747474;
+}
+.content_left .thamgia{
+    height: 50px;
+    width: 250px;
+    border-radius: 40px;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.content_left .thamgia a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content_left .thamgia:hover {
+    background-color: #000;
+    opacity: 1;
+}
+.content_left .thamgia:hover a{
+    color: #fff;
+}
